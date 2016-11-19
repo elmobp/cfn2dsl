@@ -161,7 +161,7 @@ CloudFormation do
           value = value.ai
         end
     %>
-    Property(<%= name.dump %>, <%= value %>)
+    <%= name.dump %>, <%= value %>
     <%
       end
     end
